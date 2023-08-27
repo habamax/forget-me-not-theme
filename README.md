@@ -1,4 +1,4 @@
-# forget-me-not-theme a tribute to light-blue Emacs theme
+# A tribute to light-blue Emacs theme
 
 ... which Emacs 29.1 made obsolete.
 
