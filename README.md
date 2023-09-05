@@ -13,3 +13,11 @@ With Emacs 29.1+:
 ```
 
 Or download `forget-me-not-theme.el` into your `custom-theme-directory`.
+
+## Other themes
+
+- [wildcharm-theme][1]: dark/light themes with good contrast.
+- [sandcastle-theme][2]: light mid(low) contrast theme.
+
+[1]: https://github.com/habamax/wildcharm-theme
+[2]: https://github.com/habamax/sandcastle-theme
