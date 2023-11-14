@@ -921,9 +921,9 @@
    `(smerge-upper
      ((t (:background ,diff-removed-bg))))
    `(smerge-refined-added
-     ((t (:background ,green :foreground ,black))))
+     ((t (:background ,diff-refine-added-bg :foreground ,diff-added-fg))))
    `(smerge-refined-removed
-     ((t (:background ,red :foreground ,black))))
+     ((t (:background ,diff-refine-removed-bg :foreground ,diff-removed-fg))))
 
    ;; epa
    `(epa-mark
@@ -1244,6 +1244,8 @@
      ((t (:background ,non-text))))
 
    ;; rainbow-delimiters
+   `(rainbow-delimiters-base-error-face
+     ((t (:background ,grey1 :foreground ,red :weight bold))))
    `(rainbow-delimiters-depth-1-face
      ((t (:foreground ,fg))))
    `(rainbow-delimiters-depth-2-face
